@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D32C31A2508939F00602028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D32C3192508939F00602028 /* AppDelegate.swift */; };
+		3D32C31C2508939F00602028 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D32C31B2508939F00602028 /* SceneDelegate.swift */; };
+		3D32C31E2508939F00602028 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D32C31D2508939F00602028 /* ViewController.swift */; };
+		3D32C3212508939F00602028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D32C31F2508939F00602028 /* Main.storyboard */; };
+		3D32C323250893A100602028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D32C322250893A100602028 /* Assets.xcassets */; };
+		3D32C326250893A100602028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D32C324250893A100602028 /* LaunchScreen.storyboard */; };
+		3D32C3302508BD2100602028 /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D32C32F2508BD2100602028 /* CalculateViewController.swift */; };
+		3D32C3322508BD2700602028 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D32C3312508BD2700602028 /* ThirdViewController.swift */; };
+		3D32C3342508BF8A00602028 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D32C3332508BF8A00602028 /* Extension.swift */; };
+		3D32C3362508C62B00602028 /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D32C3352508C62B00602028 /* MainViewCell.swift */; };
+		3D32C3392508D53400602028 /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D32C3382508D53400602028 /* SideMenuController.swift */; };
+		3D32C33B2508E22B00602028 /* CalculateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D32C33A2508E22B00602028 /* CalculateCell.swift */; };
+		3D32C3492509FA9C00602028 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D32C3482509FA9C00602028 /* CustomView.swift */; };
+		3D32C34C250A0F2D00602028 /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D32C34B250A0F2D00602028 /* OrderCell.swift */; };
+		3D32C34E250A0F5600602028 /* TotalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D32C34D250A0F5600602028 /* TotalCell.swift */; };
+		3D32C350250A11DF00602028 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D32C34F250A11DF00602028 /* PopUpViewController.swift */; };
+		3D32C353250B339600602028 /* StoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D32C352250B339600602028 /* StoreInfoViewController.swift */; };
+		3D32C355250B48AE00602028 /* StatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D32C354250B48AE00602028 /* StatViewController.swift */; };
+		B54E59524B928E060BFFFE1D /* Pods_baro_admin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F3A8A8B72F833197B27C6C /* Pods_baro_admin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D32C3162508939E00602028 /* baro_admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baro_admin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D32C3192508939F00602028 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D32C31B2508939F00602028 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D32C31D2508939F00602028 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D32C3202508939F00602028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D32C322250893A100602028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D32C325250893A100602028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D32C327250893A100602028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D32C32F2508BD2100602028 /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
+		3D32C3312508BD2700602028 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		3D32C3332508BF8A00602028 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		3D32C3352508C62B00602028 /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
+		3D32C3382508D53400602028 /* SideMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
+		3D32C33A2508E22B00602028 /* CalculateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateCell.swift; sourceTree = "<group>"; };
+		3D32C3482509FA9C00602028 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		3D32C34B250A0F2D00602028 /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		3D32C34D250A0F5600602028 /* TotalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalCell.swift; sourceTree = "<group>"; };
+		3D32C34F250A11DF00602028 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		3D32C352250B339600602028 /* StoreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreInfoViewController.swift; sourceTree = "<group>"; };
+		3D32C354250B48AE00602028 /* StatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatViewController.swift; sourceTree = "<group>"; };
+		50F3A8A8B72F833197B27C6C /* Pods_baro_admin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_baro_admin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1CEFBD6DD8035D3E781AB0 /* Pods-baro_admin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baro_admin.debug.xcconfig"; path = "Target Support Files/Pods-baro_admin/Pods-baro_admin.debug.xcconfig"; sourceTree = "<group>"; };
+		CB6D0B89012257FAEF6E45C4 /* Pods-baro_admin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baro_admin.release.xcconfig"; path = "Target Support Files/Pods-baro_admin/Pods-baro_admin.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D32C3132508939E00602028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54E59524B928E060BFFFE1D /* Pods_baro_admin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D32C30D2508939E00602028 = {
+			isa = PBXGroup;
+			children = (
+				3D32C3182508939E00602028 /* baro_admin */,
+				3D32C3172508939E00602028 /* Products */,
+				D35BE1102EAE9803BEB87E61 /* Pods */,
+				C5E32240B2536EB9109E76FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D32C3172508939E00602028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D32C3162508939E00602028 /* baro_admin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D32C3182508939E00602028 /* baro_admin */ = {
+			isa = PBXGroup;
+			children = (
+				3D32C3192508939F00602028 /* AppDelegate.swift */,
+				3D32C31B2508939F00602028 /* SceneDelegate.swift */,
+				3D32C31D2508939F00602028 /* ViewController.swift */,
+				3D32C3352508C62B00602028 /* MainViewCell.swift */,
+				3D32C3372508D52600602028 /* SideMenu */,
+				3D32C34A250A0F0700602028 /* Cell */,
+				3D32C3482509FA9C00602028 /* CustomView.swift */,
+				3D32C33A2508E22B00602028 /* CalculateCell.swift */,
+				3D32C3312508BD2700602028 /* ThirdViewController.swift */,
+				3D32C31F2508939F00602028 /* Main.storyboard */,
+				3D32C322250893A100602028 /* Assets.xcassets */,
+				3D32C324250893A100602028 /* LaunchScreen.storyboard */,
+				3D32C327250893A100602028 /* Info.plist */,
+				3D32C3332508BF8A00602028 /* Extension.swift */,
+			);
+			path = baro_admin;
+			sourceTree = "<group>";
+		};
+		3D32C3372508D52600602028 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3D32C3382508D53400602028 /* SideMenuController.swift */,
+				3D32C352250B339600602028 /* StoreInfoViewController.swift */,
+				3D32C32F2508BD2100602028 /* CalculateViewController.swift */,
+				3D32C354250B48AE00602028 /* StatViewController.swift */,
+				3D32C34F250A11DF00602028 /* PopUpViewController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		3D32C34A250A0F0700602028 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3D32C34B250A0F2D00602028 /* OrderCell.swift */,
+				3D32C34D250A0F5600602028 /* TotalCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C5E32240B2536EB9109E76FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50F3A8A8B72F833197B27C6C /* Pods_baro_admin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35BE1102EAE9803BEB87E61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F1CEFBD6DD8035D3E781AB0 /* Pods-baro_admin.debug.xcconfig */,
+				CB6D0B89012257FAEF6E45C4 /* Pods-baro_admin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D32C3152508939E00602028 /* baro_admin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D32C32A250893A200602028 /* Build configuration list for PBXNativeTarget "baro_admin" */;
+			buildPhases = (
+				009980B988AA608F04FEB386 /* [CP] Check Pods Manifest.lock */,
+				3D32C3122508939E00602028 /* Sources */,
+				3D32C3132508939E00602028 /* Frameworks */,
+				3D32C3142508939E00602028 /* Resources */,
+				D3E1FCD897CFE66FD2F79FFA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = baro_admin;
+			productName = baro_admin;
+			productReference = 3D32C3162508939E00602028 /* baro_admin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D32C30E2508939E00602028 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Kang Mingu";
+				TargetAttributes = {
+					3D32C3152508939E00602028 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 3D32C3112508939E00602028 /* Build configuration list for PBXProject "baro_admin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D32C30D2508939E00602028;
+			productRefGroup = 3D32C3172508939E00602028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D32C3152508939E00602028 /* baro_admin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D32C3142508939E00602028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D32C326250893A100602028 /* LaunchScreen.storyboard in Resources */,
+				3D32C323250893A100602028 /* Assets.xcassets in Resources */,
+				3D32C3212508939F00602028 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		009980B988AA608F04FEB386 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-baro_admin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3E1FCD897CFE66FD2F79FFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-baro_admin/Pods-baro_admin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-baro_admin/Pods-baro_admin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-baro_admin/Pods-baro_admin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D32C3122508939E00602028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D32C31E2508939F00602028 /* ViewController.swift in Sources */,
+				3D32C34C250A0F2D00602028 /* OrderCell.swift in Sources */,
+				3D32C33B2508E22B00602028 /* CalculateCell.swift in Sources */,
+				3D32C3392508D53400602028 /* SideMenuController.swift in Sources */,
+				3D32C31A2508939F00602028 /* AppDelegate.swift in Sources */,
+				3D32C3302508BD2100602028 /* CalculateViewController.swift in Sources */,
+				3D32C3492509FA9C00602028 /* CustomView.swift in Sources */,
+				3D32C350250A11DF00602028 /* PopUpViewController.swift in Sources */,
+				3D32C3342508BF8A00602028 /* Extension.swift in Sources */,
+				3D32C3322508BD2700602028 /* ThirdViewController.swift in Sources */,
+				3D32C353250B339600602028 /* StoreInfoViewController.swift in Sources */,
+				3D32C3362508C62B00602028 /* MainViewCell.swift in Sources */,
+				3D32C34E250A0F5600602028 /* TotalCell.swift in Sources */,
+				3D32C355250B48AE00602028 /* StatViewController.swift in Sources */,
+				3D32C31C2508939F00602028 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D32C31F2508939F00602028 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D32C3202508939F00602028 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D32C324250893A100602028 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D32C325250893A100602028 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D32C328250893A200602028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D32C329250893A200602028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D32C32B250893A200602028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F1CEFBD6DD8035D3E781AB0 /* Pods-baro_admin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YAPL3Q6FM;
+				INFOPLIST_FILE = baro_admin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mingu-king.baro-admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D32C32C250893A200602028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB6D0B89012257FAEF6E45C4 /* Pods-baro_admin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YAPL3Q6FM;
+				INFOPLIST_FILE = baro_admin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mingu-king.baro-admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D32C3112508939E00602028 /* Build configuration list for PBXProject "baro_admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D32C328250893A200602028 /* Debug */,
+				3D32C329250893A200602028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D32C32A250893A200602028 /* Build configuration list for PBXNativeTarget "baro_admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D32C32B250893A200602028 /* Debug */,
+				3D32C32C250893A200602028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D32C30E2508939E00602028 /* Project object */;
+}
